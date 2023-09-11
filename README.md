@@ -150,6 +150,7 @@ locals {
 
 <details><summary>Инициализация проекта</summary>
 
+```
 root@baranovsa:/home/baranovsa/ter-homeworks/03/src# terraform apply
 
 Terraform used the selected providers to generate the following execution plan.
@@ -526,7 +527,7 @@ yandex_compute_instance.fe_instance["replica"]: Still creating... [1m0s elapsed]
 yandex_compute_instance.fe_instance["replica"]: Creation complete after 1m3s [id=fhm1c24hper7101mbvfg]
 
 Apply complete! Resources: 7 added, 0 changed, 0 destroyed.
-
+```
 
 </details>
 
